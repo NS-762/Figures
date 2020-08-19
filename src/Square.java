@@ -9,9 +9,4 @@ public class Square extends Figures {
         return side;
     }
 
-/*    @Override
-    public double figuresArea() {
-        area = Math.pow(side, 2);
-        return area;
-    }*/
 }

@@ -13,10 +13,4 @@ public class Triangle extends Figures {
     public int getHeight() {
         return height;
     }
-
-/*    @Override
-    public double figuresArea() {
-        area = 0.5 * base * height;
-        return area;
-    }*/
 }

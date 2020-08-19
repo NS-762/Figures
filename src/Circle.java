@@ -8,10 +8,4 @@ public class Circle extends Figures {
     public int getRadius() {
         return radius;
     }
-
-    /*@Override
-    public double figuresArea() {
-        area = Math.PI * Math.pow(radius, 2);
-        return area;
-    }*/
 }

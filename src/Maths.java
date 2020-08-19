@@ -1,8 +1,8 @@
-public class Maths extends Figures {
+public class Maths {
 
-    protected double area;
+    protected static double area;
 
-    public void mathsArea(Figures figure) {
+    public static void mathsArea(Figures figure) {
         if (figure instanceof Circle) {
             int radius = ((Circle) figure).getRadius();
             area = Math.PI * Math.pow(radius, 2);
