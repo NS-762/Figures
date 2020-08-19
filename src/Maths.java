@@ -1,8 +1,8 @@
 public class Maths {
 
-    protected static double area;
 
     public static void mathsArea(Figures figure) {
+        double area;
         if (figure instanceof Circle) {
             int radius = ((Circle) figure).getRadius();
             area = Math.PI * Math.pow(radius, 2);
